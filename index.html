@@ -11,6 +11,189 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="manifest" href="site.webmanifest" />
+    <!-- TODO: Add Product Offer price/availability only when real price and stock data are available on this static page. -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "OnlineStore",
+                "@id": "https://hayati.pt/#organization",
+                "name": "Hayati.pt",
+                "url": "https://hayati.pt/",
+                "logo": "https://hayati.pt/img/Hayati-Logo.png",
+                "contactPoint": [
+                    {
+                        "@type": "ContactPoint",
+                        "email": "info@vapeportugal.pt",
+                        "telephone": "+351935718678",
+                        "contactType": "customer support",
+                        "areaServed": "PT",
+                        "availableLanguage": "pt-PT"
+                    }
+                ],
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Portugal"
+                },
+                "availableLanguage": "pt-PT"
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://hayati.pt/#website",
+                "name": "Hayati.pt",
+                "url": "https://hayati.pt/",
+                "publisher": {
+                    "@id": "https://hayati.pt/#organization"
+                },
+                "inLanguage": "pt-PT"
+            },
+            {
+                "@type": "CollectionPage",
+                "@id": "https://hayati.pt/#webpage",
+                "url": "https://hayati.pt/",
+                "name": "Hayati Vapes Descartáveis",
+                "description": "Descobre os vapes descartaveis Hayati em Portugal com até 15000 Tragadas, tecnologia Mesh Coil, sabores de vape intensos e opções sem nicotina.",
+                "isPartOf": {
+                    "@id": "https://hayati.pt/#website"
+                },
+                "about": {
+                    "@id": "https://hayati.pt/#organization"
+                },
+                "breadcrumb": {
+                    "@id": "https://hayati.pt/#breadcrumb"
+                },
+                "mainEntity": {
+                    "@id": "https://hayati.pt/#itemlist"
+                },
+                "inLanguage": "pt-PT"
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://hayati.pt/#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://hayati.pt/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Produtos Hayati",
+                        "item": "https://hayati.pt/#collection"
+                    }
+                ]
+            },
+            {
+                "@type": "ItemList",
+                "@id": "https://hayati.pt/#itemlist",
+                "name": "Produtos Hayati",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Hayati Pro Max 4K Tragadas",
+                            "image": "https://hayati.pt/img/Hayati-Pro-Max-4K-Vape-Descartavel-Portugal-Blue-Fusion-4000-Tragadas.png",
+                            "url": "https://vapeportugal.pt/products/hayati-pro-max-4k-vape-descartavel-portugal",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Hayati"
+                            },
+                            "description": "Hayati Pro Max 4K Puffs | Vape Descartável Portugal 0% Nicotina."
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Hayati Pro Ultra 15K Tragadas",
+                            "image": "https://hayati.pt/img/Hayati-Pro-Ultra-15K-Vape-Descartavel-Portugal-Cherry-Ice-Peach-Mango-2-Nicotina-15000-Tragadas.png",
+                            "url": "https://vapeportugal.pt/products/hayati-pro-ultra-15k-vape-descartavel-portugal",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Hayati"
+                            },
+                            "description": "Hayati Pro Ultra 15000 é um vape descartável premium com tecnologia Mesh Coil, sistema Dual Tank de 24ml e bateria recarregável de 850mAh."
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Hayati Twist 5K Tragadas",
+                            "image": "https://hayati.pt/img/Hayati-Twist-5K-Vape-Descartavel-Portugal-Double-Apple-5000-Tragadas.png",
+                            "url": "https://vapeportugal.pt/products/hayati-twist-5k-vape-descartavel-portugal",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Hayati"
+                            },
+                            "description": "Hayati Twist 5000 5K é um vape descartável com sistema Twist para alternar entre sabores."
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Hayati Pro Ultra 15K 0 Nicotina",
+                            "image": "https://hayati.pt/img/Hayati-Pro-Ultra-15K-Vape-Descartavel-Portugal-Pineapple-Sours-0-Nicotina-15000-Tragadas.png",
+                            "url": "https://vapeportugal.pt/products/hayati-pro-ultra-15k-0-nic-vape-descartavel-portugal",
+                            "brand": {
+                                "@type": "Brand",
+                                "name": "Hayati"
+                            },
+                            "description": "Hayati Pro Ultra 15000 sem nicotina é um vape descartável premium com tecnologia Mesh Coil, sistema Dual Tank de 24ml e até 15000 Tragadas."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://hayati.pt/#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "O Hayati Pro Ultra 15000 é um vape descartável sem nicotina?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Sim, este cigarro eletrónico descartável está disponível na versão sem nicotina, ideal para utilizadores que procuram desfrutar de sabores de vape intensos sem consumir nicotina."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quantas Tragadas oferece o Hayati Pro Ultra 15000?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "O Hayati Pro Ultra 15K oferece até 15000 Tragadas, tornando-se um dos vapes descartaveis de longa duração mais procurados em vape portugal."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "É difícil usar o sistema Twist no modelo 5000?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Não, é muito intuitivo. Basta um simples giro manual no topo do dispositivo para alternar entre os dois sabores disponíveis no mesmo vape."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quais as vantagens dos modelos com 0% de nicotina?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Permitem desfrutar do sabor e do hábito social do vape sem a ingestão de nicotina, sendo ideais para quem está a reduzir o vício ou prefere apenas o aroma."
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
     <!-- Age gate -->
